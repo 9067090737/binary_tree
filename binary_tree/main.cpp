@@ -44,8 +44,8 @@ int n;
 cout<<"Enter element quantity\n";
 cin>>n;
 point *root;
-root=new point;
-root=Tree(n, root);
+root=new point;///@brief creation of tree root
+root=Tree(n, root);///@brief creation of a tree with ROOT and n leafs
 Print(root,1);
 getch();
 }
